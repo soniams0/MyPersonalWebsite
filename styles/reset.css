@@ -1,0 +1,126 @@
+/* reset.css */
+
+
+/* Elimina márgenes y rellenos */
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+dl,
+dd,
+ol,
+ul,
+figure,
+hr,
+fieldset,
+legend,
+textarea,
+input,
+button {
+    margin: 0;
+    padding: 0;
+}
+
+
+/* Elimina la lista de estilo predeterminada */
+
+ul,
+ol {
+    list-style: none;
+}
+
+
+/* Establece un estilo de borde consistente */
+
+fieldset,
+img {
+    border: 0;
+}
+
+
+/* Elimina el subrayado de enlaces */
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+
+/* Elimina el borde en imágenes y enlaces que son utilizados como contenedores */
+
+img,
+a {
+    outline: none;
+}
+
+
+/* Establece el estilo de los botones */
+
+button,
+input {
+    background: none;
+    box-shadow: none;
+    border-radius: 0;
+}
+
+
+/* Establece un tamaño de fuente y box-sizing consistente */
+
+html {
+    font-size: 100%;
+    line-height: 1.15;
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+
+/* Establece una altura mínima para el body y remueve el desplazamiento de contenido */
+
+body {
+    min-height: 100vh;
+    line-height: 1.5;
+    background-color: #fff;
+    font-family: sans-serif;
+    color: #333;
+    text-rendering: optimizeLegibility;
+}
+
+
+/* Permite un estilo personalizado en tablas */
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+button,
+input,
+select,
+textarea {
+    font: inherit;
+}
+
+
+/* Asegura que todos los elementos usen bordes box-sizing */
+
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
